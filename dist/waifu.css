@@ -27,7 +27,7 @@
     height: 25px;
 }
 
-#waifu {
+.waifu,#waifu {
     position: fixed !important;
     bottom: 0 !important;
     right: 5px !important;
