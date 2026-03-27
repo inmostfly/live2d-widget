@@ -241,7 +241,7 @@ class Cubism2Model {
     this.dragMgr.setPoint(vx, vy);
     this.live2DMgr.tapEvent(vx, vy);
 
-    if (this.live2DMgr?.model.hitTest(LAppDefine.HIT_AREA_BODY, vx, vy)) {
+    if (this.live2DMgr && this.live2DMgr.model && this.live2DMgr.model.hitTest(LAppDefine.HIT_AREA_BODY, vx, vy)) {
       window.dispatchEvent(new Event('live2d:tapbody'));
     }
   }
@@ -265,7 +265,7 @@ class Cubism2Model {
 
     this.dragMgr.setPoint(vx, vy);
 
-    if (this.live2DMgr?.model.hitTest(LAppDefine.HIT_AREA_BODY, vx, vy)) {
+    if (this.live2DMgr && this.live2DMgr.model && this.live2DMgr.model.hitTest(LAppDefine.HIT_AREA_BODY, vx, vy)) {
       window.dispatchEvent(new Event('live2d:hoverbody'));
     }
   }
