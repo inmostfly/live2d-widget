@@ -157,6 +157,14 @@ export class AppDelegate extends LAppDelegate {
     this._cubismOption = null;
   }
 
+  /**
+   * Initialize the application delegate.
+   */
+  initialize() {
+    this.initializeSubdelegates();
+    this.initializeEventListener();
+  }
+
   transformOffset(e) {
     const subdelegate = this._subdelegates.at(0);
     const rect = subdelegate.getCanvas().getBoundingClientRect();

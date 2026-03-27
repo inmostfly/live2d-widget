@@ -1,6 +1,7 @@
 export class AppDelegate extends LAppDelegate {
     _drawFrameId: number;
     stop(): void;
+    initialize(): void;
     transformOffset(e: any): {
         x: number;
         y: number;
