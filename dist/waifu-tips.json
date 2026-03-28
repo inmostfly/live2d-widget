@@ -288,5 +288,10 @@
       "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/histoirenohover"
     ],
     "message": "Nep! Nep! 超次元游戏：海王星 系列"
+  },
+  {
+    "name": "Hiyori",
+    "paths": ["https://fastly.jsdelivr.net/gh/Live2D/CubismWebSamples/Samples/Resources/Hiyori/Hiyori.model3.json"],
+    "message": "是 Hiyori 哦 ~"
   }]
 }
