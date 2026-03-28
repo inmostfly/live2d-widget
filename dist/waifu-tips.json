@@ -291,7 +291,7 @@
   },
   {
     "name": "Hiyori",
-    "paths": ["https://fastly.jsdelivr.net/gh/Live2D/CubismWebSamples/Samples/Resources/Hiyori/Hiyori.model3.json"],
+    "paths": ["https://fastly.jsdelivr.net/gh/Live2D/CubismWebSamples/Samples/Resources/Hiyori/Hiyori.model2.json"],
     "message": "是 Hiyori 哦 ~"
   }]
 }
