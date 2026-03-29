@@ -9,6 +9,17 @@
 
 [English](README.en.md)
 
+## inmost:写在前面
+
+感谢大佬们的开源以及相关教程
+实际使用过程中在next主题适配中产生了诸多问题，在库中通过对css样式表的调整以及对5代sdk的适配调整恢复了其使用，可直接在网页中插入
+
+```bash
+<script src="https://fastly.jsdelivr.net/gh/inmostfly/live2d-widget@1.2.0/autoload.js"></script>
+```
+
+进行使用
+
 ## 特性
 
 - 在网页中添加 Live2D 看板娘
