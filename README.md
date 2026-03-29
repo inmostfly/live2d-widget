@@ -18,7 +18,12 @@
 <script src="https://fastly.jsdelivr.net/gh/inmostfly/live2d-widget@1.2.0/autoload.js"></script>
 ```
 
-进行使用（ps:作者原生waifu-tips库中所写的hiyori并没有得到cubism5的支持，如果想要本地开发需要下载sdk并为其添加路径（path中是有路径的，如果不依赖本地路径直接加载即可）)
+进行使用（ps:作者原生waifu-tips库中所写的hiyori并没有得到cubism5的支持，如果想要本地开发需要下载sdk并为其添加路径（path中是有路径的，如果不依赖本地路径直接加载即可）)  
+遗憾的是在调整位置之后可能是因为位置偏移，cubism2支持的模型点击无法正常生效，待后日改进
+
+## 本项目将重点在网页端实现与看板娘的聊天着手
+
+原生看板娘只能对链接进行固定响应，可通过投喂设定，接入第三方api加以聊天框，为其赋予个性化。
 
 ## 特性
 
