@@ -18,7 +18,7 @@
 <script src="https://fastly.jsdelivr.net/gh/inmostfly/live2d-widget@1.2.0/autoload.js"></script>
 ```
 
-进行使用
+进行使用（ps:作者原生waifu-tips库中所写的hiyori并没有得到cubism5的支持，如果想要本地开发需要下载sdk并为其添加路径（path中是有路径的，如果不依赖本地路径直接加载即可）)
 
 ## 特性
 
