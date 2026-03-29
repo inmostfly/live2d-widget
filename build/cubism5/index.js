@@ -87,8 +87,10 @@ export class AppDelegate extends LAppDelegate {
         this._cubismOption = null;
     }
     initialize() {
+        this.initializeCubism();
         this.initializeSubdelegates();
         this.initializeEventListener();
+        return true;
     }
     transformOffset(e) {
         const subdelegate = this._subdelegates.at(0);

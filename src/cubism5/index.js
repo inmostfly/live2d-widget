@@ -161,8 +161,10 @@ export class AppDelegate extends LAppDelegate {
    * Initialize the application delegate.
    */
   initialize() {
+    this.initializeCubism();
     this.initializeSubdelegates();
     this.initializeEventListener();
+    return true;
   }
 
   transformOffset(e) {

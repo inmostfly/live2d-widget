@@ -82,8 +82,8 @@
 #live2d {
     cursor: grab;
     position: relative;
-    width: 100% !important;
-    height: 100% !important;
+    width: 300px !important;
+    height: 300px !important;
     max-width: 100% !important;
     max-height: 100% !important;
     margin: 0 !important;
